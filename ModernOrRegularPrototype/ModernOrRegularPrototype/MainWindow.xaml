@@ -4,7 +4,8 @@
         Title="MainWindow" Height="350" Width="525">
     <Grid>
         
-        <TextBlock Text="Window content"
+        <TextBlock Text="Enjoy a glass free window. Unfortunately, due to AllowTransparency = true, the window does not respect the taskbar when maximized."
+                   TextWrapping="Wrap"
                    FontFamily="Segoe UI Light"
                    FontSize="25"
                    Margin="15"/>

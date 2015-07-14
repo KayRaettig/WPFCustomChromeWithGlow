@@ -58,11 +58,7 @@
                     </Border>
                     <ControlTemplate.Triggers>
                         <Trigger Property="IsActive" Value="False">
-                            <Setter TargetName="PART_ShadowLayer" Property="Effect">
-                                <Setter.Value>
-                                    <DropShadowEffect Color="Transparent" BlurRadius="15" ShadowDepth="0" Direction="315" Opacity="0.9" />
-                                </Setter.Value>
-                            </Setter>
+                            <Setter TargetName="PART_ShadowLayer" Property="Effect" Value="{x:Null}"/>
                             <Setter TargetName="PART_Border" Property="BorderBrush" Value="Gray"/>
                         </Trigger>
                         <Trigger Property="IsActive" Value="True">
